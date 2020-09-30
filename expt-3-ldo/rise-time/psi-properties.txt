@@ -1,0 +1,16 @@
+
+InShrtCkt|=> ##[ 0.000000e+00 : 1.000000e-05 ] !VUpperBand
+SUPPORT = 22.790800
+CORRELATION = 22.987898
+
+!InShrtCkt && VLowerBand|=> ##[ 0.000000e+00 : 1.000000e-05 ] !VUpperBand
+SUPPORT = 0.200200
+CORRELATION = 0.201931
+
+!InShrtCkt && !VLowerBand ##[ 0.000000e+00 : 1.000000e-05 ] VLowerBand|=> !VUpperBand
+SUPPORT = 0.000400
+CORRELATION = 0.000403
+
+!InShrtCkt && VLowerBand|=> ##[ 4.060000e-06 : 4.090000e-06 ] VUpperBand
+SUPPORT = 0.000200
+CORRELATION = 0.023326

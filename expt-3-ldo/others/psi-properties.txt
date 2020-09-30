@@ -1,0 +1,20 @@
+
+InShrtCkt && !ShrtCktEvent|=> ##[ 0.000000e+00 : 2.000000e-05 ] !VStable
+SUPPORT = 19.763000
+CORRELATION = 48.778020
+
+!InShrtCkt && VUpperBand|=> ##[ 0.000000e+00 : 2.000000e-05 ] VStable
+SUPPORT = 2.053000
+CORRELATION = 3.451360
+
+!InShrtCkt && !VUpperBand && !ShrtCktEvent && VLowerBand|=> ##[ 3.920000e-06 : 2.000000e-05 ] VStable
+SUPPORT = 0.317200
+CORRELATION = 0.533254
+
+!InShrtCkt && !VUpperBand && !ShrtCktEvent && VLowerBand|=> ##[ 0.000000e+00 : 4.710000e-06 ] !VStable
+SUPPORT = 0.083200
+CORRELATION = 0.205350
+
+!InShrtCkt && VUpperBand|=> ##[ 4.000000e-07 : 6.300000e-07 ] !VStable
+SUPPORT = 0.004400
+CORRELATION = 0.010860
